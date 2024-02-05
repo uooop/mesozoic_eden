@@ -11,17 +11,17 @@ public class test {
 
 		boolean a = false, b = false, c = false;
 		boolean bool = (a = true) || (b = true) && (c = true);
-		// System.out.println(a + "," + b + "," + c);
+		System.out.println(a + "," + b + "," + c + bool);
 
 		boolean q1 = false, q2 = true;
 		boolean res = q1 & (q2 = false);
-		// System.out.println(q1 + " " + q2 + " " + res);
+		System.out.println(q1 + " " + q2 + " " + res);
 
 		boolean a1 = (5 > 1) ^ (10 < 20);
 		boolean a2 = (5 > 10) ^ (10 < 20);
 		boolean a3 = (5 > 10) ^ (10 < 2);
 		boolean a4 = (5 > 10) ^ (10 < 20);
-		// System.out.println(a1 + " " + a2 + " " + a3 + " " + a4);
+		System.out.println(a1 + " " + a2 + " " + a3 + " " + a4);
 
 		byte c1 = 6 & 8;
 		byte c2 = 7 | 9;
